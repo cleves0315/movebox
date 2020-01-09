@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+$back: 'background';
+
+.app {
+    height: 100vh;
+    overflow: hidden;
+    .wrap {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      div {
+          display: flex;
+          height: 100vh;
+          color: #fff;
+          font-size: 60px;
+          align-items: center;
+          justify-content: center;
+      }
+      .box1 {
+          #{$back}: #00b894;
+      }
+      .box2 {
+          #{$back}: #ff7675;
+      }
+      .box3 {
+          #{$back}: #0984e3;
+      }
+      .box4 {
+          #{$back}: #fdcb6e;
+      }
+      .box5 {
+          #{$back}: #a29bfe;
+      }
+    }
+}
